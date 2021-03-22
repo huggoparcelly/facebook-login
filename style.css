@@ -1,5 +1,57 @@
 .top-bar {
   display: flex;
   background-color: rgb(66, 103, 178);
-  justify-content: flex-start;
+  justify-content: space-evenly;
+  padding: 13px 0px 0px;
+}
+
+.facebook-login {
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+}
+
+.facebook-login label{
+  padding: 0px 0px 4px 0px;
+}
+
+#login {
+  display: flex;
+  width: 150px;
+  height: 23px;
+  padding: 3px 3px 4px;
+}
+
+#password {
+  display: flex;
+  width: 150px;
+  height: 23px;
+  padding: 3px 3px 4px;
+}
+
+.login-container, .password-container {
+  margin-right: 14px;
+}
+
+.btn-enter {
+  background-color: #4267B2;
+  border: 1px solid #29487d;
+  padding: 2px 6px;
+  width: 49.34px;
+  height: 24px;
+  color: #FFFFFF;
+}
+
+.forgot {
+  color: #9cb4d8;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+  color: #9cb4d8;
 }
