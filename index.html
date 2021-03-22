@@ -11,24 +11,22 @@
 <body>
   <header class="top-bar">
     <img class="facebook-logo" src="imgs/facebook-logo.png" alt="Facebook Logo">
-    <section class="form-group">
-      <form class="facebook-login" action="" method="get">
-        <div class="login-container">
-          <label for="login">Email ou telefone</label>
-          <input type="text" id="login">
-        </div>
-        <div class="password-container">
-          <label for="password">Senha</label>
-          <input type="password" id="password">
-        </div>
-        <div class="btn-container">
-          <button class="btn-enter">Entrar</button>
-        </div>
-      </form>
-    </section>
-    
+    <form class="facebook-login" action="" method="get">
+      <div class="form-group">
+        <label id="user-email-phone-label" for="user-email-phone">E-mail ou telefone</label>
+        <input type="text" id="user-email-phone">
+      </div>
+      <div class="form-group">
+        <label id='user-password-label' for="user-password">Senha</label>
+        <input type="password" id="user-password">
+      </div>
+      <div class="form-control">
+        <button id="button-login">Entrar</button>
+      </div>
+    </form>
   </header>
   
   <script src="libs/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

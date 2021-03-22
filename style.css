@@ -13,50 +13,23 @@
   font-family: Helvetica, sans-serif;
 }
 
-.facebook-login label{
-  padding: 0px 0px 4px 0px;
-}
 
-#login {
-  display: flex;
-  width: 150px;
-  height: 23px;
-  padding: 3px 3px 4px;
-}
-
-#password {
-  display: flex;
-  width: 150px;
-  height: 23px;
-  padding: 3px 3px 4px;
-}
-
-.login-container, .password-container {
-  margin-right: 14px;
-}
-
-.btn-enter {
+#button-login {
   background-color: #4267B2;
-  border: 1px solid #29487d;
-  padding: 2px 6px;
-  width: 49.34px;
-  height: 24px;
   color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
 }
-
-/* .forgot {
-  color: #9cb4d8;
-  font-weight: normal;
-  text-decoration: none;
-  cursor: pointer;
-} */
-
-/* .forgot:hover {
-  text-decoration: underline;
-  color: #9cb4d8;
-} */
 
 .form-group {
   display: flex;
   flex-direction: column;
+}
+
+.form-control {
+  align-self: flex-end;
+  background-color: #4267B2;
+  border: 1px solid #29487d;
+  padding: 2px 6px;
 }
