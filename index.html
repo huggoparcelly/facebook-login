@@ -11,9 +11,9 @@
 
 <body>
   <header class="top-bar">
-    
+
     <img class="facebook-logo" src="imgs/facebook-logo.png" alt="Facebook Logo">
-   
+
     <form class="facebook-login" action="" method="get">
       <div class="form-group">
         <label id="user-email-phone-label" for="user-email-phone">Email ou telefone</label>
@@ -27,13 +27,14 @@
         <button id="button-login">Entrar</button>
       </div>
     </form>
-    
+
   </header>
   <!-- 8. Crie um container abaixo da barra azul para agrupar o conteúdo principal da página. -->
   <main class="main-content">
     <!-- 9. Crie um subcontainer para colocar o conteúdo do lado esquerdo -->
     <section class="left-content">
-      <p class="fs-5" id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <p class="fs-5" id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem
+        parte da sua vida.</p>
       <img id="facebook-networking" src="imgs/networking.png" alt="Facebook Networking">
     </section>
     <!-- 10. Crie um subcontainer para colocar o conteúdo do lado direito -->
@@ -49,8 +50,16 @@
         </section>
         <input type="text" name="phone_email" placeholder="Celular ou email">
         <input type="password" name="password" placeholder="Nova senha">
-        <p id="label-birthdate">Data de nascimento</p>
-        <input type="text" name="birthdate" placeholder="dd/mm/aaaa">
+        <br>
+        <label for="birthdate" id="label-birthdate">Data de nascimento <input type="text" name="birthdate"
+            placeholder="dd/mm/aaaa"></label><br>
+        <label for="gender" id="label-gender">Gênero
+          <section class="gender-options">
+            <input type="radio" name="gender" value="Feminino">Feminino
+            <input type="radio" name="gender" value="Masculino">Masculino
+            <input type="radio" name="gender" value="Personalizado">Personalizado
+          </section>
+        </label>
       </form>
 
     </section>
