@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Facebook - entre ou cadastre-se</title>
 </head>
+
 <body>
   <header class="top-bar">
     
@@ -27,21 +29,36 @@
     </form>
     
   </header>
-
+  <!-- 8. Crie um container abaixo da barra azul para agrupar o conteúdo principal da página. -->
   <main class="main-content">
+    <!-- 9. Crie um subcontainer para colocar o conteúdo do lado esquerdo -->
     <section class="left-content">
       <p class="fs-5" id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
       <img id="facebook-networking" src="imgs/networking.png" alt="Facebook Networking">
     </section>
-
+    <!-- 10. Crie um subcontainer para colocar o conteúdo do lado direito -->
     <section class="right-content">
       <h1>Abra uma conta</h1>
       <div class="quick-easy">É rápido e fácil</div>
-      <form action="">form</form>
+
+      <form action="">
+        <!-- 11. Crie um campo de entrada de texto para o nome do usuário dentro do formulário criado no requisito 10 -->
+        <section class="fullname">
+          <input type="text" name="firstname" placeholder="Nome">
+          <input type="text" name="lastname" placeholder="Sobrenome">
+        </section>
+        <input type="text" name="phone_email" placeholder="Celular ou email">
+        <input type="password" name="password" placeholder="Nova senha">
+        <p id="label-birthdate">Data de nascimento</p>
+        <input type="text" name="birthdate" placeholder="dd/mm/aaaa">
+      </form>
+
     </section>
+
   </main>
 
   <script src="script.js"></script>
 
 </body>
+
 </html>
