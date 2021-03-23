@@ -6,20 +6,20 @@
 
 .top-bar {
   display: flex;
+  align-items: center;
   background-color: rgb(66, 103, 178);
-  justify-content: space-evenly;
   padding: 13px 0;
 }
 
 .facebook-logo {
   display: flex;
-  justify-content: left;
+  align-content: flex-start;
+  text-align: left;
 }
 
 .facebook-login {
   display: flex;
   align-items: flex-end;
-  justify-content: right;
   color: white;
   font-size: 12px;
   font-family: Helvetica, sans-serif;
