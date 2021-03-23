@@ -43,24 +43,32 @@
       <div class="quick-easy">É rápido e fácil.</div>
 
       <form action="">
-        <!-- 11. Crie um campo de entrada de texto para o nome do usuário dentro do formulário criado no requisito 10 -->
+        <!-- nome do usuário -->
         <section class="fullname">
           <input type="text" name="firstname" placeholder="Nome">
           <input type="text" name="lastname" placeholder="Sobrenome">
         </section>
+
+        <!-- celular ou e-mail -->
         <input type="text" name="phone_email" placeholder="Celular ou email">
-        <input type="password" name="password" placeholder="Nova senha">
-        <br>
-        <label for="birthdate" id="label-birthdate">Data de nascimento <input type="text" name="birthdate"
-            placeholder="dd/mm/aaaa"></label><br>
-        <label for="gender" id="label-gender">Gênero
-          <section class="gender-options">
-            <input type="radio" name="gender" value="Feminino">Feminino
-            <input type="radio" name="gender" value="Masculino">Masculino
-            <input type="radio" name="gender" value="Personalizado">Personalizado
-          </section>
-        </label>
-        <input type="button" value="Cadastre-se" id="facebook-register" type="submit">
+
+        <!-- nova senha -->
+        <input type="password" name="password" placeholder="Nova senha"><br>
+
+        <!-- data de nascimento -->
+        <label for="birth-date" id="label-birthdate">Data de nascimento <input type="text" name="birthdate"
+            id="birth-date" placeholder="dd/mm/aaaa"></label><br>
+
+        <!-- gênero -->
+        <label id="label-gender">Gênero</label>
+        <section class="gender-options">
+          <label for="female"> <input type="radio" name="gender" id="female" value="Feminino">Feminino</label>
+          <label for="male"><input type="radio" name="gender" id="male" value="Masculino">Masculino</label>
+          <label for="custom"><input type="radio" name="gender" id="custom" value="Personalizado">Personalizado</label>
+        </section>
+
+        <!-- botão cadastre-se -->
+        <button id="facebook-register" type="submit">Cadastre-se</button>
       </form>
 
     </section>
