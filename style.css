@@ -11,9 +11,15 @@
   padding: 13px 0;
 }
 
+.facebook-logo {
+  display: flex;
+  justify-content: left;
+}
+
 .facebook-login {
   display: flex;
   align-items: flex-end;
+  justify-content: right;
   color: white;
   font-size: 12px;
   font-family: Helvetica, sans-serif;
