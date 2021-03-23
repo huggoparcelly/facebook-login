@@ -10,6 +10,6 @@ function bntLogin() {
   getBtnLogin.addEventListener('click', alertEmailTelefone);
 }
 
-window.onload = function () {
+window.onload = function() {
   bntLogin();
-};
+}
