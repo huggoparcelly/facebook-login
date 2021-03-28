@@ -86,3 +86,7 @@
   line-height: 29px;
   width: 450px;
 }
+
+#gender-custom {
+  display: none;
+}

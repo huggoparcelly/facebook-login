@@ -29,7 +29,31 @@ function btnCadastre() {
   });
 }
 
-window.onload = function () {
+const getRadio = document.getElementsByName('gender'); // captura os botões radio
+const customTextBox = document.getElementById('gender-custom'); // captura a caixa de texto
+
+// evento para o botao radio feminino
+getRadio[0].onclick = (event) => {
+  if (event.target.checked) {
+    customTextBox.style.display = 'none';
+  }
+};
+
+// evento para o botao radio masculino
+getRadio[1].onclick = (e) => {
+  if (e.target.checked) {
+    customTextBox.style.display = 'none';
+  }
+};
+
+// evento para o botao radio personalizado
+getRadio[2].onclick = (event) => {
+  if (event.target.checked) {
+    customTextBox.style.display = 'flex'; // aparecer a caixa de texto
+  }
+};
+
+window.onload = () => {
   bntLogin();
   btnCadastre();
 };
