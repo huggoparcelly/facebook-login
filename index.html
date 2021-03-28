@@ -42,7 +42,7 @@
       <h1>Abra uma conta</h1>
       <div class="quick-easy">É rápido e fácil.</div>
 
-      <form action="">
+      <form action="" class="cadastro">
         <!-- nome do usuário -->
         <section class="fullname">
           <input type="text" name="firstname" placeholder="Nome">
@@ -62,13 +62,14 @@
         <!-- gênero -->
         <label id="label-gender">Gênero</label>
         <section class="gender-options">
-          <label for="female"> <input type="radio" name="gender" id="female" value="Feminino">Feminino</label>
+          <label for="female"><input type="radio" name="gender" id="female" value="Feminino">Feminino</label>
           <label for="male"><input type="radio" name="gender" id="male" value="Masculino">Masculino</label>
           <label for="custom"><input type="radio" name="gender" id="custom" value="Personalizado">Personalizado</label>
         </section>
 
         <!-- botão cadastre-se -->
         <button id="facebook-register" type="submit">Cadastre-se</button>
+        <p id="camposInvalidos"></p>
       </form>
 
     </section>

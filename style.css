@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgb(66, 103, 178);
-  padding: 13px 0;
+  padding: 13px 0px;
 }
 
 .facebook-logo {
@@ -24,7 +24,6 @@
   color: white;
   font-size: 12px;
   font-family: Helvetica, sans-serif;
-  margin-right: 30px;
 }
 
 #user-email-phone , #user-password {
@@ -78,4 +77,12 @@
 
 .gender-options {
   display: flex;
+}
+
+#facebook-slogan {
+  color: #0e385f;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 29px;
+  width: 450px;
 }
