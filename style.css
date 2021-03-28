@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .top-bar {
@@ -51,7 +52,6 @@
   align-self: flex-end;
   background-color: #4267b2;
   padding: 2px 6px;
-  width: 49.34px;
   height: 24px;
   font-family: inherit;
 }
@@ -63,7 +63,6 @@
 }
 
 .left-content {
-  width: 800px;
   justify-content: space-evenly;
 }
 
@@ -71,8 +70,20 @@
   width: 300px;
 }
 
+.right-content h1 {
+  font-size: 36px;
+}
+
+.quick-easy {
+  font-size: 19px;
+  font-weight: 400;
+}
+
 .fullname {
   display: flex;
+  width: 400px;
+  justify-content: space-between;
+  margin: 5px 0;
 }
 
 .gender-options {
@@ -89,4 +100,69 @@
 
 #gender-custom {
   display: none;
+}
+
+.cadastro input {
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 15px;
+  background-color: transparent;
+  border: 1px solid #ccd0d5;
+  
+}
+
+#phone_email , #password {
+  margin: 5px 0;
+  width: 400px;
+}
+
+#label-birthdate , #label-gender {
+  display: flex;
+  font-size: 16px;
+  color: #90949c;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.gender-options {
+  display: flex;
+  width: 400px;
+  align-items: flex-end;
+}
+
+.gender-options input {
+  margin: 5px;
+}
+
+.gender-options label {
+  margin: 5px; 
+  font-size: 18px;
+  padding: 5px;
+}
+
+/* Estilização copiada do botão original da página de login do facebook */
+#facebook-register {
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+  font-weight: bold !important;
+  letter-spacing: normal;
+  text-rendering: optimizelegibility;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 194px;
+  padding: 7px 20px;
+  text-align: center;
+  line-height: 126%;
+  background: linear-gradient(#67ae55, #578843);
+  background-color: #69a74e;
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-color: #3b6e22 #3b6e22 #2c5115;
+  border: 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: relative;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
 }

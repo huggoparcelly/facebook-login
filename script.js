@@ -10,6 +10,7 @@ function bntLogin() {
   getBtnLogin.addEventListener('click', alertEmailTelefone);
 }
 
+//  validação dos campos de texto
 function validate() {
   // capturar cada campo de input
   const getForms = document.getElementsByClassName('cadastro')[0];
@@ -21,6 +22,7 @@ function validate() {
   }
 }
 
+// botão de cadastro
 function btnCadastre() {
   const getSubmit = document.getElementById('facebook-register');
   getSubmit.addEventListener('click', (e) => {
