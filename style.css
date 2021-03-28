@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: rgb(66, 103, 178);
-  padding: 13px 0px;
+  padding: 13px 0;
 }
 
 .facebook-logo {
@@ -82,7 +82,7 @@
 #facebook-slogan {
   color: #0e385f;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 29px;
   width: 450px;
 }
