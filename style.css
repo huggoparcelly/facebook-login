@@ -63,7 +63,7 @@
 }
 
 .left-content {
-  justify-content: space-evenly;
+  justify-content: left;
 }
 
 .right-content {
