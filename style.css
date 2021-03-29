@@ -64,6 +64,7 @@
 
 .left-content {
   justify-content: left;
+  width: 800px;
 }
 
 .right-content {
