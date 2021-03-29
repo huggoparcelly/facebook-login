@@ -27,7 +27,7 @@
   font-family: Helvetica, sans-serif;
 }
 
-#user-email-phone , #user-password {
+#user-email-phone, #user-password {
   width: 150px;
   height: 24px;
 }
@@ -112,12 +112,12 @@
   border: 1px solid #ccd0d5;
 }
 
-#phone_email , #password {
+#phone_email, #password {
   margin: 5px 0;
   width: 400px;
 }
 
-#label-birthdate , #label-gender {
+#label-birthdate, #label-gender {
   display: flex;
   font-size: 16px;
   color: #90949c;
@@ -131,12 +131,13 @@
 }
 
 .gender-options label {
-  margin: 5px; 
+  margin: 5px;
   font-size: 18px;
   padding: 5px;
 }
 
 /* Estilização copiada do botão original da página de login do facebook */
+
 #facebook-register {
   font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
   font-weight: 700;
@@ -146,7 +147,7 @@
   padding: 7px 20px;
   background: linear-gradient(#67ae55, #578843);
   box-shadow: inset 0 1px 1px #a4e388;
-  border: 1px solid #3b6e22 ;
+  border: 1px solid #3b6e22;
   border-radius: 5px;
   color: white;
   cursor: pointer;
