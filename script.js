@@ -10,6 +10,28 @@ function bntLogin() {
   getBtnLogin.addEventListener('click', alertEmailTelefone);
 }
 
+const generChecked = () => {
+  const genderCheck = document.getElementsByName('gender');
+  for (let i = 0; i < genderCheck.length; i += 1) {
+    if (genderCheck[i].checked) {
+      return genderCheck[i].value;
+    }
+  }
+};
+
+const welcome = () => {
+  // capturar o nome, sobrenome, tel-email, data de nascimento, genero
+  const name = document.querySelector('#firstname').value;
+  const lastName = document.querySelector('#lastname').value;
+  const celEmail = document.querySelector('#phone_email').value;
+  const birthDate = document.querySelector('#birth-date').value;
+  document.querySelector('#welcome').innerText = 'Bem vindo(a)';
+  document.querySelector('.welcome-div').innerText = `Olá, ${name} ${lastName}
+  email ou telefone: ${celEmail}
+  Data de nascimento: ${birthDate}
+  Gêreno: ${generChecked()}`;
+};
+
 //  validação dos campos de texto
 function validate() {
   // capturar cada campo de input
@@ -18,6 +40,9 @@ function validate() {
   for (let i = 0; i <= 4; i += 1) {
     if (getForms[i].value === '') {
       document.getElementById('camposInvalidos').innerText = 'Campos inválidos';
+    } else {
+      document.querySelector('.right-content').style.display = 'none';
+      welcome();
     }
   }
 }

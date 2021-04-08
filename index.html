@@ -45,8 +45,8 @@
       <form action="" class="cadastro">
         <!-- nome do usuário -->
         <section class="fullname">
-          <input type="text" name="firstname" placeholder="Nome">
-          <input type="text" name="lastname" placeholder="Sobrenome">
+          <input type="text" name="firstname" id='firstname' placeholder="Nome">
+          <input type="text" name="lastname" id="lastname" placeholder="Sobrenome">
         </section>
 
         <!-- celular ou e-mail -->
@@ -62,9 +62,9 @@
         <!-- gênero -->
         <label id="label-gender">Gênero</label>
         <section class="gender-options">
-          <label for="female"><input type="radio" name="gender" id="female" value="Feminino">Feminino</label>
-          <label for="male"><input type="radio" name="gender" id="male" value="Masculino">Masculino</label>
-          <label for="custom"><input type="radio" name="gender" id="custom" value="Personalizado">Personalizado</label>
+          <input type="radio" name="gender" id="female" value="Feminino"><label for="female">Feminino</label>
+          <input type="radio" name="gender" id="male" value="Masculino"><label for="male">Masculino</label>
+          <input type="radio" name="gender" id="custom" value="Personalizado"><label for="custom">Personalizado</label>
         </section>
         <!-- campo de texto gereno personalizado -->
         <input type="text" id="gender-custom" name="gender-custom" placeholder='Gênero (opcional)' >
@@ -73,6 +73,11 @@
         <p id="camposInvalidos"></p>
       </form>
 
+    </section>
+    <!-- Campo de boas vindas -->
+    <section>
+      <h1 id='welcome'></h1>
+      <div class="welcome-div"></div>
     </section>
 
   </main>
